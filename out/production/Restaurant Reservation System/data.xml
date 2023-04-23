@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<restaurant>
+    <users>
+        <employees>
+            <employee>
+                <firstname>Hassan</firstname>
+                <lastname>Tarek</lastname>
+                <username>hassan</username>
+                <password>123456</password>
+                <role>Manager</role>
+                <salary>8000.0</salary>
+            </employee>
+            <employee>
+                <firstname>Adam</firstname>
+                <lastname>Smith</lastname>
+                <username>adam</username>
+                <password>789654</password>
+                <role>Waiter</role>
+                <salary>5000.0</salary>
+            </employee>
+            <employee>
+                <firstname>John</firstname>
+                <lastname>Doe</lastname>
+                <username>john</username>
+                <password>741951</password>
+                <role>Cooker</role>
+                <salary>6000.0</salary>
+            </employee>
+            <employee>
+                <firstname>Mohamed</firstname>
+                <lastname>Ali</lastname>
+                <username>mohamed_ali</username>
+                <password>mohamed</password>
+                <role>Waiter</role>
+                <salary>5000.0</salary>
+            </employee>
+        </employees>
+        <customers>
+            <customer>
+                <firstname>Brian</firstname>
+                <lastname>Johannes</lastname>
+                <username>brian</username>
+                <password>brian2001</password>
+                <role>Premium Customer</role>
+                <table_number>5</table_number>
+                <discount>2.0</discount>
+            </customer>
+            <customer>
+                <firstname>George</firstname>
+                <lastname>Robbin</lastname>
+                <username>george</username>
+                <password>k6987_#LpQ</password>
+                <role>NonPremium Customer</role>
+                <table_number>2</table_number>
+                <discount>0.0</discount>
+            </customer>
+            <customer>
+                <firstname>Tomas</firstname>
+                <lastname>Hobbes</lastname>
+                <username>hobbes_tom</username>
+                <password>4856#LoQ</password>
+                <role>NonPremium Customer</role>
+                <table_number>1</table_number>
+                <discount>0.0</discount>
+            </customer>
+            <customer>
+                <firstname>Alex</firstname>
+                <lastname>Johannes</lastname>
+                <username>alex_johannes</username>
+                <password>alex1592001</password>
+                <role>Premium Customer</role>
+                <table_number>3</table_number>
+                <discount>5.0</discount>
+            </customer>
+            <customer>
+                <firstname>Hassan</firstname>
+                <lastname>Elashry</lastname>
+                <username>hasan2001</username>
+                <password>2001</password>
+                <role>NonPremium Customer</role>
+                <table_number>7</table_number>
+                <discount>0.0</discount>
+            </customer>
+            <customer>
+                <firstname>Hassan</firstname>
+                <lastname>Tarek</lastname>
+                <username>hasan</username>
+                <password>hasan</password>
+                <role>NonPremium Customer</role>
+                <table_number/>
+                <discount>0.0</discount>
+            </customer>
+        </customers>
+    </users>
+    <dishes>
+        <dish>
+            <name>Grilled Chicken</name>
+            <type>Main Course</type>
+            <price>75.0</price>
+        </dish>
+        <dish>
+            <name>Greek Salade</name>
+            <type>Appetizer</type>
+            <price>35.0</price>
+        </dish>
+        <dish>
+            <name>Fried Potatoes</name>
+            <type>Appetizer</type>
+            <price>30.0</price>
+        </dish>
+        <dish>
+            <name>Apple Pie</name>
+            <type>Desert</type>
+            <price>50.0</price>
+        </dish>
+        <dish>
+            <name>Molten Cake</name>
+            <type>Desert</type>
+            <price>60.0</price>
+        </dish>
+        <dish>
+            <name>Mushroom Soup</name>
+            <type>Main Course</type>
+            <price>60.0</price>
+        </dish>
+        <dish>
+            <name>Beef Steak</name>
+            <type>Main Course</type>
+            <price>80.0</price>
+        </dish>
+    </dishes>
+    <tables>
+        <table>
+            <table_number>1</table_number>
+            <number_of_seats>5</number_of_seats>
+            <smoking>false</smoking>
+            <booked>true</booked>
+        </table>
+        <table>
+            <table_number>2</table_number>
+            <number_of_seats>12</number_of_seats>
+            <smoking>true</smoking>
+            <booked>true</booked>
+        </table>
+        <table>
+            <table_number>3</table_number>
+            <number_of_seats>12</number_of_seats>
+            <smoking>false</smoking>
+            <booked>true</booked>
+        </table>
+        <table>
+            <table_number>4</table_number>
+            <number_of_seats>4</number_of_seats>
+            <smoking>false</smoking>
+            <booked>false</booked>
+        </table>
+        <table>
+            <table_number>5</table_number>
+            <number_of_seats>4</number_of_seats>
+            <smoking>true</smoking>
+            <booked>true</booked>
+        </table>
+        <table>
+            <table_number>6</table_number>
+            <number_of_seats>5</number_of_seats>
+            <smoking>true</smoking>
+            <booked>false</booked>
+        </table>
+        <table>
+            <table_number>7</table_number>
+            <number_of_seats>10</number_of_seats>
+            <smoking>false</smoking>
+            <booked>true</booked>
+        </table>
+    </tables>
+    <bills>
+        <bill>
+            <table_number>5</table_number>
+            <date>Sat, 22 Sep 2021 21:47:39</date>
+            <bill_discount>2.0</bill_discount>
+            <bill_dishes>
+                <bill_dish id="5">
+                    <name>Beef Steak</name>
+                    <type>Main Course</type>
+                    <price>80.0</price>
+                </bill_dish>
+                <bill_dish id="5">
+                    <name>Greek Salade</name>
+                    <type>Appetizer</type>
+                    <price>35.0</price>
+                </bill_dish>
+                <bill_dish id="5">
+                    <name>Apple Pie</name>
+                    <type>Desert</type>
+                    <price>50.0</price>
+                </bill_dish>
+            </bill_dishes>
+        </bill>
+        <bill>
+            <table_number>2</table_number>
+            <date>Sat, 22 Sep 2021 21:40:30</date>
+            <bill_discount>0.0</bill_discount>
+            <bill_dishes>
+                <bill_dish id="2">
+                    <name>Mushroom Soup</name>
+                    <type>Main Course</type>
+                    <price>60.0</price>
+                </bill_dish>
+                <bill_dish id="2">
+                    <name>Greek Salade</name>
+                    <type>Appetizer</type>
+                    <price>35.0</price>
+                </bill_dish>
+            </bill_dishes>
+        </bill>
+        <bill>
+            <table_number>1</table_number>
+            <date>Sat, 22 Sep 2021 21:50:00</date>
+            <bill_discount>0.0</bill_discount>
+            <bill_dishes>
+                <bill_dish id="1">
+                    <name>Grilled Chicken</name>
+                    <type>Main Course</type>
+                    <price>75.0</price>
+                </bill_dish>
+                <bill_dish id="1">
+                    <name>Molten Cake</name>
+                    <type>Desert</type>
+                    <price>60.0</price>
+                </bill_dish>
+            </bill_dishes>
+        </bill>
+        <bill>
+            <table_number>7</table_number>
+            <date>Sun, 25 Sep 2021 19:49:59</date>
+            <bill_discount>0.0</bill_discount>
+            <bill_dishes>
+                <bill_dish id="7">
+                    <name>Mushroom Soup</name>
+                    <type>Main Course</type>
+                    <price>60.0</price>
+                </bill_dish>
+                <bill_dish id="7">
+                    <name>Fried Potatoes</name>
+                    <type>Appetizer</type>
+                    <price>30.0</price>
+                </bill_dish>
+                <bill_dish id="7">
+                    <name>Apple Pie</name>
+                    <type>Desert</type>
+                    <price>50.0</price>
+                </bill_dish>
+            </bill_dishes>
+        </bill>
+    </bills>
+    <orders>
+        <order>
+            <table_number>5</table_number>
+            <is_reserved>false</is_reserved>
+            <order_dishes>
+                <order_dish id="5">
+                    <name>Beef Steak</name>
+                    <type>Main Course</type>
+                    <price>80.0</price>
+                    <is_prepared>true</is_prepared>
+                </order_dish>
+                <order_dish id="5">
+                    <name>Greek Salade</name>
+                    <type>Appetizer</type>
+                    <price>35.0</price>
+                    <is_prepared>true</is_prepared>
+                </order_dish>
+                <order_dish id="5">
+                    <name>Apple Pie</name>
+                    <type>Desert</type>
+                    <price>50.0</price>
+                    <is_prepared>true</is_prepared>
+                </order_dish>
+            </order_dishes>
+        </order>
+        <order>
+            <table_number>2</table_number>
+            <is_reserved>false</is_reserved>
+            <order_dishes>
+                <order_dish id="2">
+                    <name>Mushroom Soup</name>
+                    <type>Main Course</type>
+                    <price>60.0</price>
+                    <is_prepared>true</is_prepared>
+                </order_dish>
+                <order_dish id="2">
+                    <name>Greek Salade</name>
+                    <type>Appetizer</type>
+                    <price>35.0</price>
+                    <is_prepared>true</is_prepared>
+                </order_dish>
+            </order_dishes>
+        </order>
+        <order>
+            <table_number>1</table_number>
+            <is_reserved>true</is_reserved>
+            <order_dishes>
+                <order_dish id="1">
+                    <name>Grilled Chicken</name>
+                    <type>Main Course</type>
+                    <price>75.0</price>
+                    <is_prepared>true</is_prepared>
+                </order_dish>
+                <order_dish id="1">
+                    <name>Molten Cake</name>
+                    <type>Desert</type>
+                    <price>60.0</price>
+                    <is_prepared>true</is_prepared>
+                </order_dish>
+            </order_dishes>
+        </order>
+        <order>
+            <table_number>7</table_number>
+            <is_reserved>false</is_reserved>
+            <order_dishes>
+                <order_dish id="7">
+                    <name>Mushroom Soup</name>
+                    <type>Main Course</type>
+                    <price>60.0</price>
+                    <is_prepared>false</is_prepared>
+                </order_dish>
+                <order_dish id="7">
+                    <name>Fried Potatoes</name>
+                    <type>Appetizer</type>
+                    <price>30.0</price>
+                    <is_prepared>false</is_prepared>
+                </order_dish>
+                <order_dish id="7">
+                    <name>Apple Pie</name>
+                    <type>Desert</type>
+                    <price>50.0</price>
+                    <is_prepared>true</is_prepared>
+                </order_dish>
+            </order_dishes>
+        </order>
+    </orders>
+</restaurant>
